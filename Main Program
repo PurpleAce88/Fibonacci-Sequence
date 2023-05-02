@@ -1,0 +1,15 @@
+i = 0
+F1 = 0
+fibList = [0,1]
+
+print("This program prints the digits of the Fibonacci Sequence in order")
+length = input("Number of digits desired:")
+
+
+fin = int(length)
+
+while i < fin:
+    print(F1)
+    fibList.append(F1)
+    F1 = fibList[-1] + fibList[-2]
+    i = i + 1 
